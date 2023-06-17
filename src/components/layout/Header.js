@@ -18,9 +18,10 @@ export default function Header() {
             {/* <img
               className="h-8 w-auto"
               alt="ultracar logo"
+              src=""
             /> */}
           </a>
-          <p className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Carflow</p>
+          <p className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Natalicio Rosa - APVS</p>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -33,20 +34,11 @@ export default function Header() {
         </div>
               <Popover.Group className="hidden lg:flex lg:gap-x-12">
                   
-                  <a
-                      href="/concecionarie"
-                  className="text-sm font-semibold leading-6 text-blue-1">
-                   concessionárias
-                  </a>
-          <a
-            href="/register-user"
-            className="text-sm font-semibold leading-6 text-blue-1"
-          >
-            Cadastro
-          </a>
-          <a href="/" className="text-sm font-semibold leading-6 text-blue-1">
-            Login
-          </a>
+
+          <button href="/" type="button"
+           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+          Solicitar cotação
+          </button>
         </Popover.Group>
       </nav>
       <Dialog
@@ -81,26 +73,9 @@ export default function Header() {
 									href='/register-client'
 									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-1 hover:bg-gray-50'
 								>
-									Registrar Cliente
+									Solicitar cotação
 								</a>
-								<a
-									href='/qr-scanner'
-									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-1 hover:bg-gray-50'
-								>
-									Scanner
-								</a>
-								<a
-									href='/services'
-									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-1 hover:bg-gray-50'
-								>
-									Serviços
-								</a>
-								<a
-									href='/manual'
-									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-1 hover:bg-gray-50'
-								>
-									Manual
-								</a>
+						
 							</div>
 						</div>
 					</div>
