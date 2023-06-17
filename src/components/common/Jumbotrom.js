@@ -10,7 +10,7 @@ export function Jumbotrom() {
 				</p>
 				<div class='flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4'>
 					<a
-						href='#'
+							href="https://wa.me/557582094528?text=Ol%C3%A1+gostaria+de+solicitar+uma+cotação"  target="_blank"
 						class='inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-900'
 					>
 						Solicite sua cotação
@@ -29,7 +29,7 @@ export function Jumbotrom() {
 						</svg>
 					</a>
 					<a
-						href='#'
+							href="https://wa.me/557582094528?text=Ol%C3%A1+gostaria+de+saber+mais+sobre+APVS"  target="_blank"
 						class='inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400'
 					>
 						Saiba mais

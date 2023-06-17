@@ -35,10 +35,10 @@ export default function Header() {
               <Popover.Group className="hidden lg:flex lg:gap-x-12">
                   
 
-          <button href="/" type="button"
-           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+          <a href="https://wa.me/557582094528?text=Ol%C3%A1+gostaria+de+saber+mais+sobre+APVS" 
+           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" target="_blank" >
           Solicitar cotação
-          </button>
+          </a>
         </Popover.Group>
       </nav>
       <Dialog
@@ -51,11 +51,11 @@ export default function Header() {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
-              <img
+              {/* <img
                 className="h-8 w-auto"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuAViRjVdVHqHCxGRWvWIRl28OgsdJ6BrQT2IANlgn6Q&s"
                 alt="ultracar logo"
-              />
+              /> */}
             </a>
             <button
               type="button"
@@ -70,7 +70,7 @@ export default function Header() {
 						<div className='-my-6 divide-y divide-gray-500/10'>
 							<div className='space-y-2 py-6'>
 								<a
-									href='/register-client'
+									href="https://wa.me/557582094528?text=Ol%C3%A1+gostaria+de+saber+mais+sobre+APVS"  target="_blank"
 									className='-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-blue-1 hover:bg-gray-50'
 								>
 									Solicitar cotação
