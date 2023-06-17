@@ -19,8 +19,12 @@ export default function RootLayout({ children }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any" />
       <title>{metadata.title}</title>
-      <meta name="description" content={metadata.description} />
-      {/* Aqui você pode adicionar outras tags meta conforme necessário */}
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content="seguros de caminhão, seguros de utilitários, seguros veiculares, seguradora de caminhão" />
+        <meta name="author" content="natalicio rosa, apvs truck" />
+        <meta name="language" content="pt" />
+        <meta name="robots" content="index, follow" />
+
     </head>
     <body>
       <Header />
